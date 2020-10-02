@@ -4,11 +4,14 @@ import { DepositsComponent } from './deposits/deposits.component';
 import { PPFAccountComponent } from './ppfaccount/ppfaccount.component';
 import { SsyAccountComponent } from './ssy-account/ssy-account.component';
 
+import { AccountRoutingModule } from './account-routing.module';
+
 
 @NgModule({
-  declarations: [DepositsComponent, PpfaccountComponent, PPFAccountComponent, SsyAccountComponent],
+  declarations: [DepositsComponent, PPFAccountComponent, SsyAccountComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    AccountRoutingModule
   ]
 })
 export class AccountModule { }

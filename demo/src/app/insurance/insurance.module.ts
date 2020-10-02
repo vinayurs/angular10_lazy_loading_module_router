@@ -5,12 +5,14 @@ import { CustomerInsuranceComponent } from './customer-insurance/customer-insura
 import { BuyMutualFundComponent } from './buy-mutual-fund/buy-mutual-fund.component';
 import { DematComponent } from './demat/demat.component';
 
+import { InsuranceRoutingModule } from './insurance-routing.module';
 
 
 @NgModule({
   declarations: [LifeInsuranceComponent, CustomerInsuranceComponent, BuyMutualFundComponent, DematComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    InsuranceRoutingModule
   ]
 })
 export class InsuranceModule { }
