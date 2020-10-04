@@ -6,7 +6,7 @@ import { MyTransactionComponent } from './my-transaction/my-transaction.componen
 import { PayBillsComponent } from './pay-bills/pay-bills.component';
 
 const routes: Routes = [
-  {path:'',component:MyTransactionComponent},
+  {path:'MyTransactionComponent',component:MyTransactionComponent},
   {path:'FundTransfer',component:FundTransferComponent},
   {path:'ManagePayee',component:ManagePayeeComponent},
   {path:'PayBills',component:PayBillsComponent}

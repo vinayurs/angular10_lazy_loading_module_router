@@ -5,7 +5,7 @@ import { CibilReportComponent } from './cibil-report/cibil-report.component';
 import { LoansComponent } from './loans/loans.component';
 
 const routes: Routes = [
-{path:'',component:ApplyOnlineComponent},
+{path:'ApplyOnlineComponent',component:ApplyOnlineComponent},
 {path:'CibilReport',component:CibilReportComponent},
 {path:'Loans',component:LoansComponent}
 ];

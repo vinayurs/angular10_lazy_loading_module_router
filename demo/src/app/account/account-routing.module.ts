@@ -5,7 +5,7 @@ import { PPFAccountComponent } from './ppfaccount/ppfaccount.component';
 import { SsyAccountComponent } from './ssy-account/ssy-account.component';
 
 const routes: Routes = [
-  {path:'',component:DepositsComponent},
+  {path:'DepositsComponent',component:DepositsComponent},
   {path:'PPFAccount',component:PPFAccountComponent},
   {path:'SsyAccount',component:SsyAccountComponent}
 ];

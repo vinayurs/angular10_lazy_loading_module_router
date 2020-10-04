@@ -1,15 +1,74 @@
+
+
+ 
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="/account" >account</a>
+ 
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            account
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item"  routerLink="/account/DepositsComponent">DepositsComponent</a>
+            <a class="dropdown-item" routerLink="/account/PPFAccount">PPFAccount</a>
+            <a class="dropdown-item" routerLink="/account/SsyAccount">SsyAccount</a>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/cards-loans" >card loans</a>
+
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            card loans
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item"  routerLink="/cards-loans/ApplyOnlineComponent">ApplyOnlineComponent</a>
+            <a class="dropdown-item" routerLink="/cards-loans/CibilReport">CibilReport</a>
+            <a class="dropdown-item" routerLink="/cards-loans/Loans">Loans</a>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/insurance" >insurance</a>
-        </li>
+
+
+
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          insurance
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item"  routerLink="/insurance/LifeInsuranceComponent">LifeInsuranceComponent</a>
+          <a class="dropdown-item" routerLink="/insurance/CustomerInsurance">CustomerInsurance</a>
+          <a class="dropdown-item" routerLink="/insurance/Demat">Demat</a>
+          <a class="dropdown-item" routerLink="/insurance/BuyMutual">BuyMutual</a>
+        </div>
+
+        
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          payment-transfer
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item"  routerLink="/payment-transfer/MyTransactionComponent">MyTransactionComponent</a>
+          <a class="dropdown-item" routerLink="/payment-transfer/FundTransfer">FundTransfer</a>
+          <a class="dropdown-item" routerLink="/payment-transfer/ManagePayee">ManagePayee</a>
+          <a class="dropdown-item" routerLink="/payment-transfer/PayBills">PayBills</a>
+        </div>
+
+        
+      </li>
+
+
+
+
+
+
       </ul>
     </div>
   </nav>
+

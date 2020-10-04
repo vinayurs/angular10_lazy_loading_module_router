@@ -6,10 +6,11 @@ import { DematComponent } from './demat/demat.component';
 import { LifeInsuranceComponent } from './life-insurance/life-insurance.component';
 
 const routes: Routes = [
-  {path:'',component:LifeInsuranceComponent},
+  
   {path:'CustomerInsurance',component:CustomerInsuranceComponent},
   {path:'Demat',component:DematComponent},
-  {path:'BuyMutual',component:BuyMutualFundComponent}
+  {path:'BuyMutual',component:BuyMutualFundComponent},
+  {path:'LifeInsuranceComponent',component:LifeInsuranceComponent}
 ];
 
 @NgModule({
